@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata: Metadata = { 
   title: "Portfólio - Alisson Pereira",
   description: "Portfólio profissional de Alisson Pereira, desenvolvedor full stack especializado em soluções web escaláveis e de alta performance.",
 };

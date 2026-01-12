@@ -2,7 +2,7 @@ export default async function ProjetosPage() {
   return (
     <main className="px-6 py-12 min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
       <header className="mt-5 mb-12 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+          <h1 className="translate-y-5 text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white drop-shadow-lg">
           Projetos
         </h1>
         <p className="text-lg text-white/80">

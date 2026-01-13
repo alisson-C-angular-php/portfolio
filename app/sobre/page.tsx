@@ -23,32 +23,24 @@ export default async function SobrePage() {
         {/* Conteúdo Principal */}
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 mb-8 border border-white/20">
           <div className="space-y-6">
-         
-         <p className="text-lg text-white leading-relaxed text-justify">
-          Sou Técnico em Automação Industrial e atualmente cursando Tecnólogo em Banco de Dados. 
-          Combinando formação técnica com experiência prática, atuo no desenvolvimento de soluções 
-          completas que vão do backend ao frontend.
-        </p>
 
-         <p className="text-lg text-white leading-relaxed text-justify">
-              Tenho experiência prática na instalação e gerenciamento de plataformas como WordPress 
-              e Open Cart, migrações de ambientes, otimizações, backups/restores e administração via 
-              SSH/SFTP. Minha abordagem técnica é focada em qualidade, performance e boas práticas 
-              de desenvolvimento.
+            <p className="text-lg text-white leading-relaxed text-justify">
+              Sou Desenvolvedor Backend e Full Stack com foco em sistemas corporativos, APIs e aplicações orientadas a dados.
+              Tenho formação técnica em Automação Industrial e atualmente curso Tecnólogo em Banco de Dados.
             </p>
 
-         <p className="text-lg text-white leading-relaxed text-justify">
-              No desenvolvimento, domino lógica de programação, programação orientada a objetos, 
-              padrões de projeto, arquitetura limpa e testes automatizados. Desenvolvo aplicações e 
-              APIs REST em PHP, C# e Java, enquanto no frontend trabalho com JavaScript moderno, 
-              frameworks como Vue, Angular e React, além das bases HTML e CSS.
+            <p className="text-lg text-white leading-relaxed text-justify">
+              Atuo no desenvolvimento, manutenção e modernização de aplicações utilizadas por empresas, incluindo sistemas internos, plataformas web, APIs REST e integrações entre serviços.
             </p>
 
-         <p className="text-lg text-white leading-relaxed text-justify">
-              Meu objetivo é impulsionar o sucesso das empresas através de soluções tecnológicas 
-              eficientes, contribuindo para crescimento e inovação com código de qualidade e 
-              arquiteturas bem definidas.
+            <p className="text-lg text-white leading-relaxed text-justify">
+              Tenho experiência prática com PHP, C#, Java, SQL Server, MySQL, Docker e cloud, trabalhando com lógica de negócio, banco de dados, arquitetura e boas práticas de desenvolvimento.
             </p>
+
+            <p className="text-lg text-white leading-relaxed text-justify">
+              Meu objetivo é ajudar empresas a operarem melhor através de software confiável, organizado e escalável, contribuindo com código de qualidade e visão de produto.
+            </p>
+
           </div>
         </div>
 
@@ -57,7 +49,7 @@ export default async function SobrePage() {
           <h2 className="text-3xl font-bold mb-6 text-white text-center">
             Tecnologias que Domino
           </h2>
-          
+
           <div className="space-y-6">
             {tecnologias.map((categoria) => (
               <div key={categoria.categoria}>
@@ -84,12 +76,12 @@ export default async function SobrePage() {
           <h2 className="text-3xl font-bold mb-6 text-white text-center">
             Vamos Conversar!
           </h2>
-          
+
           <div className="text-center space-y-4">
             <p className="text-lg text-white">
               Gostou do meu perfil ou tem algum projeto em mente?
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
                 href="mailto:alissonpereiraa069@gmail.com"
@@ -101,7 +93,7 @@ export default async function SobrePage() {
                 </svg>
                 alissonpereiraa069@gmail.com
               </a>
-              
+
               <a
                 href="https://github.com/alisson-C-angular-php"
                 target="_blank"
@@ -114,7 +106,7 @@ export default async function SobrePage() {
                 GitHub
               </a>
             </div>
-            
+
             <p className="text-sm text-white/80 mt-4">
               Estou sempre aberto a novas oportunidades e parcerias
             </p>

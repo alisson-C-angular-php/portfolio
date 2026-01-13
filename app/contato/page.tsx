@@ -35,13 +35,14 @@ export default async function ContatoPage() {
     }
   ];
 
-  const areasInteresse = [
-    "Desenvolvimento Full Stack",
-    "Arquitetura de Software",
-    "Banco de Dados",
-    "DevOps & Cloud",
-    "Consultoria Técnica"
-  ];
+ const areasInteresse = [
+  "Desenvolvimento de APIs",
+  "Sistemas Corporativos",
+  "Backend e Integrações",
+  "Banco de Dados",
+  "Cloud e Deploy"
+];
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
@@ -60,15 +61,15 @@ export default async function ContatoPage() {
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 mb-8 border border-white/20">
           <div className="space-y-4">
             <p className="text-lg text-white leading-relaxed text-justify">
-              Estou sempre aberto a discutir novas oportunidades, parcerias e projetos desafiadores. 
-              Se você tem uma ideia interessante ou está procurando um desenvolvedor comprometido 
-              com qualidade e resultados, vamos conversar!
-            </p>
-            
-            <p className="text-lg text-white leading-relaxed text-justify">
-              Meu objetivo é criar soluções tecnológicas que realmente façam a diferença, 
-              combinando expertise técnica com uma abordagem focada em resolver problemas reais.
-            </p>
+Sou Desenvolvedor Backend e Full Stack focado em sistemas corporativos, APIs e aplicações orientadas a dados. 
+Atuo criando, mantendo e modernizando soluções que empresas utilizam no dia a dia para operar seus processos.
+</p>
+
+<p className="text-lg text-white leading-relaxed text-justify">
+Se sua empresa precisa de alguém para desenvolver ou sustentar sistemas, criar APIs, integrar serviços ou trabalhar com banco de dados, 
+estou pronto para contribuir com código limpo, performance e arquitetura bem definida.
+</p>
+
           </div>
         </div>
 
